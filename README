@@ -13,3 +13,10 @@ Apart from that cell tiles can be given any value and also named as well with di
 A value of a tile can also be accessed. 
 All the commands are to be typed and the compiler handles the cases when the user types 
 arbitrary input/syntax errors by displaying the proper messages on stdout and also stderr.
+
+The correct example commands for the compiler are:-
+
+1.) ADD LEFT. (For moves, Similarly all 16 combinations of moves)
+2.) ASSIGN 4 TO 1,1. (For Assigning a cell with a value, Matrix is 1-indexed)
+3.) VALUE IN 3,3. (For peeping a cell value)
+4.) 1,4 IS ABC. (For adding a name to a tile, names get appended)
