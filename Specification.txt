@@ -1,0 +1,24 @@
+The 2048 game algorithm and interpreter has the following assumptions.
+
+1) ---> 4 | 2 | 2 | 4 
+   ---> SUBTRACT LEFT.
+   ---> 4 | 4 | 0 | 0 
+
+2) Name of the variable is dropped if the value of tile becomes 0 after a move.
+
+3) Name cannot be assigned to an empty tile(0 valued tile).
+
+4) Tile names will be appended. 
+   In stderr the names appended at a cell are separated by commas.
+
+5) Each tile has a distinct name i.e. Two tiles cannot have the same name.
+
+6) Game is only won when one of the tile values is exactly 2048.
+
+7) Game exits automatically after the user has won it.
+
+
+
+
+
+
