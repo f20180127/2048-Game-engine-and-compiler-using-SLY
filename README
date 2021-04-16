@@ -5,3 +5,11 @@ make run
 TO SAVE THE STDERR TO "output.txt" file:
 
 make save
+
+The lexer and parser of the game are customized to allow 16 user operations 
+(4 functions - ADD, SUBTRACT, DIVIDE, MULTIPLY and 4 directions - UP, DOWN, LEFT, RIGHT). 
+
+Apart from that cell tiles can be given any value and also named as well with distinct names. 
+A value of a tile can also be accessed. 
+All the commands are to be typed and the compiler handles the cases when the user types 
+arbitrary input/syntax errors by displaying the proper messages on stdout and also stderr.
